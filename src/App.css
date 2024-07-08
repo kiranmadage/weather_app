@@ -1,38 +1,123 @@
-.App {
+.bg-sunny {
+  background-image: url(./sunny1.jpg) ;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-rain {
+  background-image: url(./rainy1.jpg);
+
+}
+
+.bg-cloudy {
+  background-image: url(./cloudy1.jpg);
+}
+
+.bg-snow {
+  background-image: url(./cool1.jpg);
+}
+
+
+
+.main1 {
+  height: 98vh;
+  box-shadow: 5px 5px 6px 6px rgb(157, 157, 157);
+  /* background-image: url(./bg.jpg); */
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb0sKR5dx_Y0aodiBZ4Ls2ZDxT5JLCZhbm8Q&s"); */
+  background-size: cover;
+  background-position: 0cqmax;
+  /* margin: -7px; */
+  /* padding: 10px; */
+}
+
+
+.head1 {
+  text-align: center;
+  margin: 10px;
+  /* font-size: 40px;
+  margin-top: -4px;
+  height: 20px; */
+}
+
+.input1 {
+  border-radius: 15px;
+  height: 40px;
+  width: 390px;
+  border-color: gray;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+}
+
+
+.text1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name1 {
+  /* color: white; */
+  text-align: center;
+  font-size: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.maindiv1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.firstdiv1 {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  border-radius: 10px;
+  backdrop-filter: blur(12px);
+  background-size: cover;
+  box-shadow: 6px 6px 4px 4px rgb(50, 50, 50);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.celcias1 {
+  /* color: white; */
+  font-size: 30px;
+  /* text-align: center; */
+}
+
+.thirddiv {
+  /* color: white; */
+  text-align: center;
+  background-size: cover;
+  backdrop-filter: blur(12px);
+  box-shadow: 6px 6px 4px 4px rgb(50, 50, 50);
+}
+
+.secdiv {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  box-shadow: 6px 6px 4px 4px rgb(50, 50, 50);
+}
+
+.des {
+  margin-top: 0px;
+}
+
+.img {
+  height: 80px;
+  position: relative;
+}
+
+
+.last {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.icon {
+  height: 90px;
+  width: 90px;
+
 }
